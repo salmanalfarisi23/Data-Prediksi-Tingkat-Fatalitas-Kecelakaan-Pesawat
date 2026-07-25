@@ -1,9 +1,102 @@
-# Data-Prediksi-Tingkat-Fatalitas-Kecelakaan-Pesawat
-https://colab.research.google.com/drive/10lpizmyT1U56F8FauYk4QN1jZgB8HkbQ#scrollTo=RcPNRNn_zFGK
-Proyek ini merupakan tugas akhir mata kuliah Data Science yang bertujuan untuk menganalisis data historis kecelakaan pesawat serta membangun model Machine Learning yang mampu memprediksi tingkat fatalitas suatu kecelakaan berdasarkan karakteristik data yang tersedia. Analisis dilakukan menggunakan bahasa pemrograman Python di lingkungan Google Colab dengan memanfaatkan berbagai pustaka seperti Pandas, NumPy, Matplotlib, Seaborn, dan Scikit-Learn.
+# ✈️ Proyek Data Science: Prediksi Tingkat Fatalitas Kecelakaan Pesawat
 
-Tahapan pertama dalam proyek ini adalah data preprocessing, yang meliputi pemeriksaan kualitas data, penanganan nilai yang hilang (missing values), penghapusan data yang tidak relevan, serta transformasi variabel kategorikal menjadi format numerik agar dapat digunakan dalam proses pemodelan. Setelah data siap digunakan, dilakukan Exploratory Data Analysis (EDA) untuk memahami karakteristik dataset melalui berbagai visualisasi. Tahap ini bertujuan mengidentifikasi pola, distribusi data, hubungan antarvariabel, serta faktor-faktor yang berkaitan dengan kecelakaan pesawat.
+## Deskripsi Proyek
+Proyek ini merupakan tugas akhir mata kuliah Data Science yang bertujuan menganalisis data kecelakaan pesawat menggunakan teknik Data Science serta membangun model Machine Learning untuk memprediksi tingkat fatalitas suatu kecelakaan.
 
-Selanjutnya dilakukan pembangunan model klasifikasi menggunakan algoritma Random Forest Classifier. Dataset dibagi menjadi data latih dan data uji menggunakan metode train-test split sebelum model dilatih. Setelah proses pelatihan selesai, model dievaluasi menggunakan beberapa metrik performa, seperti Accuracy, Precision, Recall, F1-Score, serta Confusion Matrix untuk mengetahui kemampuan model dalam melakukan klasifikasi. Selain itu, dilakukan analisis Feature Importance guna mengetahui variabel yang memberikan pengaruh terbesar terhadap hasil prediksi.
+Tahapan yang dilakukan meliputi:
+- Data Understanding
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Pembuatan Model Machine Learning
+- Evaluasi Model
+- Interpretasi Hasil
 
-Hasil dari proyek ini menunjukkan bahwa proses preprocessing dan eksplorasi data berhasil menghasilkan dataset yang siap digunakan untuk pemodelan. Model Random Forest mampu memberikan performa yang baik dalam memprediksi tingkat fatalitas kecelakaan pesawat berdasarkan fitur-fitur yang tersedia. Analisis Feature Importance juga memberikan informasi mengenai faktor-faktor yang paling berkontribusi terhadap prediksi, sehingga dapat menjadi dasar dalam memahami karakteristik kecelakaan pesawat dari sudut pandang data.
+---
+
+## Dataset
+
+Dataset berisi informasi historis kecelakaan pesawat, seperti:
+
+- Tanggal kejadian
+- Operator pesawat
+- Lokasi kejadian
+- Jumlah penumpang
+- Jumlah awak
+- Jumlah korban meninggal
+- Informasi lainnya yang berkaitan dengan kecelakaan.
+
+---
+
+## Tools yang Digunakan
+
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+
+---
+
+## Metode yang Digunakan
+
+### 1. Data Preprocessing
+- Membersihkan data kosong (Missing Values)
+- Menghapus data yang tidak diperlukan
+- Mengubah data kategorikal menjadi numerik menggunakan Label Encoding
+
+### 2. Exploratory Data Analysis (EDA)
+Visualisasi dilakukan untuk mengetahui:
+- Distribusi kecelakaan
+- Operator dengan jumlah kecelakaan terbanyak
+- Lokasi kecelakaan
+- Distribusi jumlah korban
+- Hubungan antar variabel
+
+### 3. Machine Learning
+Model yang digunakan adalah:
+
+**Random Forest Classifier**
+
+Tahapan meliputi:
+- Train-Test Split
+- Training Model
+- Prediksi
+- Evaluasi Model
+
+---
+
+## Evaluasi Model
+
+Model dievaluasi menggunakan beberapa metrik:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+Selain itu dilakukan analisis **Feature Importance** untuk mengetahui variabel yang paling berpengaruh terhadap prediksi.
+
+---
+
+## Hasil
+
+Berdasarkan hasil analisis:
+
+- Dataset berhasil diproses melalui tahapan preprocessing.
+- EDA memberikan gambaran pola kecelakaan berdasarkan operator, lokasi, jumlah penumpang, dan korban.
+- Model Random Forest mampu digunakan untuk memprediksi tingkat fatalitas kecelakaan pesawat.
+- Feature Importance membantu mengidentifikasi faktor-faktor yang paling memengaruhi prediksi.
+
+
+## Anggota Kelompok
+
+- ANNISA RAMADINA - 2012311001
+- BERNADUS DWI K - 2012311002
+- FIKI SATRIA - 2012311003
+- NUR FAIQ BAYYINAH - 2012311004
+- SALMAN ALFARISI - 2012311006
+
